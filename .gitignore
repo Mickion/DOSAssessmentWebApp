@@ -455,3 +455,4 @@ $RECYCLE.BIN/
 
 # 3rd party libraries
 .node_modules/*
+wwwroot/lib/*
