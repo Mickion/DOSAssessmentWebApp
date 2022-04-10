@@ -9,7 +9,7 @@ var targetPath = './wwwroot/lib/';
 
 //Convert less to css
 gulp.task("compile:less", function () {
-    return gulp.src("Styles/**/*.less")
+    return gulp.src("Content/Styles/**/*.less")
         .pipe(less())
         .pipe(gulp.dest("./wwwroot//css"));
 });
