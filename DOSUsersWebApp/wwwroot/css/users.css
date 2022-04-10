@@ -1,0 +1,96 @@
+header .container {
+  margin-left: 6px !important;
+}
+.lightblue-top {
+  border-top: 3px solid #add8e6 !important;
+}
+.dtsp-columns-1 {
+  margin-top: 0 !important;
+}
+#userstable_filter,
+#userstable_paginate {
+  float: right;
+}
+#userstable_info {
+  float: left;
+}
+#userstable_filter {
+  margin-bottom: 5px;
+}
+#userstable {
+  margin-bottom: 5px;
+}
+.dtsp-title {
+  width: 100%;
+}
+div.dtsp-panesContainer .dtsp-collapseAll {
+  float: left !important;
+}
+div.dtsp-panesContainer .dtsp-showAll {
+  float: left !important;
+}
+div.dtsp-panesContainer .dtsp-clearAll {
+  float: right !important;
+}
+div.dtsp-panesContainer div .dtsp-searchPanes div.dtsp-searchPane {
+  margin-top: 0 !important;
+}
+.ui.wide.right.sidebar {
+  z-index: 999;
+  margin-top: 3% !important;
+  /*Override fomantic !important*/
+  background-color: whitesmoke;
+}
+.ui.wide.right.sidebar .col-sm-8 {
+  border-left: #add8e647 47 solid thin;
+}
+.dtsp-narrowSearch {
+  margin-right: 7% !important;
+}
+@media only screen and (min-width: 768px) {
+  .ui.wide.right.sidebar {
+    width: 50%;
+  }
+}
+.dtsp-selected-filter {
+  background-color: #add8e647 47;
+}
+.dtsp-topRow {
+  margin: 2px !important;
+}
+.dtsp-verticalPanes {
+  padding-top: 0 !important;
+}
+.content-main {
+  height: 90vh;
+}
+.content-main main {
+  height: 100%;
+}
+.content-main main .pusher {
+  height: 100%;
+}
+.content-main main .pusher #userstable_wrapper {
+  height: 100%;
+}
+#dtfooter {
+  position: fixed;
+  bottom: 1px;
+  height: 30px;
+  width: 100%;
+}
+.ui.form .field > label {
+  color: lightgray;
+}
+.dtsp-title {
+  display: none;
+}
+.dtsp-dataTable {
+  margin-top: 0 !important;
+}
+.dtsp-topRow {
+  margin-left: -1px !important;
+}
+.dtsp-searchPane {
+  margin-top: 0 !important;
+}
