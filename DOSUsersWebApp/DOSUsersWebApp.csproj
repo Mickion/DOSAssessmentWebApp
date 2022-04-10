@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="Content\Images\profile-placeholder.png" />
+    <Content Include="Content\Scripts\users.js" />
+  </ItemGroup>
+
 </Project>

@@ -26,6 +26,9 @@ gulp.task('clean', async function () {
 });
 //Copy npm libraries to wwwroot folder
 gulp.task('extract2wwwroot', async function () {
+    gulp.src("Content/Scripts/**/*.js").pipe(gulp.dest("./wwwroot/js"));
+    gulp.src("Content/Images/**/*").pipe(gulp.dest("./wwwroot/images"));
+
     gulp.src(nodeRoot + "bootstrap/dist/js/*").pipe(gulp.dest(targetPath + "/bootstrap/dist/js"));
     gulp.src(nodeRoot + "bootstrap/dist/css/*").pipe(gulp.dest(targetPath + "/bootstrap/dist/css"));
     gulp.src(nodeRoot + "bootstrap/dist/fonts/*").pipe(gulp.dest(targetPath + "/bootstrap/dist/fonts"));
