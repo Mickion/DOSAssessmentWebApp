@@ -77,8 +77,7 @@
         $('#address').html(user.address);
         $('#city').html(user.city);
         $('#country').html(user.country);
-        $('#zipCode').html(user.zipCode);
-        console.log('Show user manje ', user);
+        $('#zipCode').html(user.zipCode);        
     }
     function _initJQFomanticDataTable() {
         let _table = $('#userstable').DataTable({
